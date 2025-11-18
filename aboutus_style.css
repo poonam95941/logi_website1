@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
 body {
@@ -37,9 +37,10 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 2.8rem;
-  color: #ffcc00;
-  margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #fca311;
+    margin-bottom: 20px;
 }
 
 .hero-text span {
@@ -137,10 +138,11 @@ body {
 }
 
 .values h2 {
-  color: #ffcc00;
-  font-size: 1.8rem;
-  margin-bottom: 30px;
-  text-transform: uppercase;
+    color: #fca311;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .value-cards {
@@ -183,7 +185,7 @@ body {
 }
 
 .timeline-section h2 {
-  color: #ffcc00;
+  color: #fca311;
   margin-bottom: 40px;
 }
 
@@ -322,13 +324,28 @@ color: #fff;
 padding: 80px 20px;
 text-align: center;
 }
-.section-title {
-font-size: 2.5rem;
+
+/* .section-title {
 color: #ffcc00;
 margin-bottom: 50px;
 text-transform: uppercase;
 letter-spacing: 2px;
+} */
+
+/* .section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+} */
+
+.section-title1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fca311;
+    margin-bottom: 32px;
 }
+
 .leader {
 display: flex;
 align-items: center;
