@@ -92,7 +92,13 @@ body{
   gap:32px;
   align-items:center;
 }
-.hero-content h1{font-size:clamp(1.6rem,3.8vw,2.6rem);margin:0 0 12px;line-height:1.02}
+/* .hero-content h1{font-size:clamp(1.6rem,3.8vw,2.6rem);margin:0 0 12px;line-height:1.02} */
+.hero-content h1 {
+    font-size: 2.8rem;
+    margin: 0 0 12px;
+    font-weight: 700;
+    line-height: 1.02;
+}
 .hero-content p{color:var(--muted);margin:0 0 18px}
 .hero-actions{display:flex;gap:12px;margin-bottom:16px}
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;border-radius:12px;text-decoration:none;
@@ -448,6 +454,7 @@ a.btn:hover{transform:translateY(-3px)}
   padding: 10px;
   border: none;
   border-radius: 10px;
+  color: #9ca3af;
   outline: none;
   font-size: 1rem;
 }
@@ -574,6 +581,7 @@ svg path {
 .about-content h2 {
   font-size: clamp(2rem, 2.5vw, 3rem);
   margin-bottom: 18px;
+  text-transform: uppercase;
 }
 
 .about-content .lead {
@@ -637,6 +645,13 @@ svg path {
   font-size: clamp(2rem, 2.5vw, 3rem);
   margin-bottom: 18px;
   margin-top: 100px;
+  text-transform: uppercase;
+}
+
+.about-content h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 18px;
 }
 
 .services-container {
@@ -1460,4 +1475,11 @@ svg path {
 
   .clients-track { animation-duration: 30s; }
 
+}
+
+/* about section content */
+
+b, strong {
+    font-weight: bolder;
+    color: white;
 }
